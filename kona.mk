@@ -482,6 +482,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
+# Wifi Enable IEEE 802.11ax support
+WIFI_FEATURE_HOSTAPD_11AX := true
+
 # Wi-Fi Display
 PRODUCT_PACKAGES += \
     libnl \
