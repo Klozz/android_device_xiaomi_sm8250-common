@@ -361,9 +361,10 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/Car
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
-# Perf
-PRODUCT_PACKAGES += \
-    libqti-perfd-client
+#Platform
+TARGET_BOARD_PLATFORM := kona
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf
 
 # Power
 PRODUCT_PACKAGES += \
