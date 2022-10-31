@@ -424,7 +424,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/xiaomi \
-    vendor/qcom/opensource/usb/etc
+    vendor/qcom/opensource/usb/etc \
+    packages/modules/Bluetooth/android/app
 
 # Telephony
 PRODUCT_PACKAGES += \
